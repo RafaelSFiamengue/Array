@@ -43,12 +43,12 @@ int main() {
         }
         else {
             cout << "Parabéns, você acertou em " << tentativas << " tentativas :) \n";
-          
+          break;
         }
     }
     //
     if (palpites != numero && tentativas >= maxTentativas) {
-        cout << "Você perdeu o jogo, muito ruim! O número era " << numero << ":( \n";
+        cout << "Você perdeu o jogo, muito ruim! O número era " << numero << " :( \n";
     }
     return 0;
 }
